@@ -1,6 +1,3 @@
-# Shaikh Israr — Portfolio
-
-A React portfolio inspired by [Abdul Basit's site](https://abdulbasit-005.vercel.app/), with all content driven from data objects in `src/data/portfolio.js`.
 
 ## Stack
 
