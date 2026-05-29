@@ -82,7 +82,7 @@ export default function Hero() {
       <div className="absolute bottom-20 right-10 h-96 w-96 animate-pulse rounded-full bg-red-900/10 blur-[150px]" />
 
       <div className="relative z-10 mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 px-4 md:px-8 lg:grid-cols-2 lg:gap-16">
-        <div className="order-2 flex flex-col items-start gap-8 lg:order-1">
+        <div className="order-1 flex flex-col items-start gap-8 lg:order-1">
           <div className="flex flex-col gap-4">
             <span className="hero-tag w-fit rounded-full border border-red-500/20 bg-red-500/10 px-4 py-1.5 text-xs font-bold tracking-[0.3em] text-red-500">
               {hero.badge}
@@ -150,7 +150,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="order-1 flex justify-center lg:order-2">
+        <div className="order-2 flex justify-center lg:order-2">
           <Tilt perspective={1000} glareEnable glareMaxOpacity={0.1} scale={1.02} className="w-full max-w-[550px]">
             <div
               ref={codeCardRef}
