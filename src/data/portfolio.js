@@ -133,7 +133,7 @@ export const about = {
   titlePrefix: 'About',
   titleHighlight: 'The Architect',
   description:
-    "I'm Shaikh Israr, a dedicated Full Stack Developer with 5.4+ years of experience building scalable web and mobile applications. I specialize in React, React Native, Node.js, and modern frontend practices — delivering responsive, user-centric interfaces and robust API integrations. Passionate about performance, clean architecture, and mentoring teams to ship production-ready products.",
+    "I'm Shaikh Israr, a dedicated Full Stack Developer with 5.4+ years of experience building scalable web and mobile applications. I specialize in React, React Native, Node.js, Go, and microservices — delivering responsive, user-centric interfaces, robust API integrations, and production-ready backends. Experienced with MySQL, MongoDB, and PostgreSQL for reliable data architecture. Passionate about performance, clean architecture, and mentoring teams to ship high-quality products.",
   image: '/profile.png',
   imageAlt: 'Shaikh Israr — Full Stack Developer',
   badge: 'Built with Passion',
