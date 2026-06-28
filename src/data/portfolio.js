@@ -21,7 +21,7 @@ export const personalInfo = {
   email: 'sisrar403@gmail.com',
   yearsExperience: '5.4',
   resumeUrl:
-    'https://drive.google.com/file/d/1PF6G4LJ3Ii7wxO6XBkG6f5IJCazzmRYN/view?usp=sharing',
+    'https://drive.google.com/file/d/112yW0lEzfF-W1FCK-V5D6CRYANKV8Fvy/view?usp=sharing',
   social: {
     github: 'https://github.com/sisrar40',
     linkedin: 'https://linkedin.com/in/shaikh-israr-8553251b7',
@@ -207,13 +207,12 @@ export const experience = {
       duration: 'Dec 2024 – Present',
       location: 'Remote',
       details: [
-        'Leading frontend development for scalable web and mobile applications',
-        'Architecting high-performance UI using React.js, Capacitor.js, and React Native',
-        'Managing state and data flow using Redux and modern frontend practices',
-        'Collaborating with backend teams for seamless API integration and optimization',
-        'Driving UI/UX improvements to enhance user engagement and performance',
-        'Mentoring junior developers and conducting code reviews',
-        'Ensuring best practices for code quality, performance, and scalability',
+        'Lead frontend engineering and core high-performance Go backend API integrations for production-tier algorithmic trading and investment software platforms',
+        'Architect and deploy clean, maintainable backend microservices using the Gin framework to drive synchronous data updates and real-time portfolio streams',
+        'Design and engineer automated GitLab CI/CD pipelines configured to build, containerize, and automatically push Docker images to AWS ECR',
+        'Manage scalable environment architectures across AWS EC2 utilizing Application Load Balancers, Elastic IPs, and structured asset deployment via AWS S3',
+        'Design fluid visual layout platforms leveraging React.js, Capacitor.js, and React Native',
+        'Govern unified system state architectures, atomic local client caching layers, and cross-service data layers via Redux',
       ],
     },
     {
@@ -223,14 +222,12 @@ export const experience = {
       duration: 'Feb 2022 – Dec 2024',
       location: null,
       details: [
-        'Redesigned Android applications using new Material Design',
-        'Built hybrid applications using React Native',
-        'UI/UX development and optimizations',
-        'API integrations and offline flow management of applications',
-        'Redesigned Android and cross-platform native application interfaces utilizing modern Google Material Design patterns.',
-        'Built and shipped modular hybrid applications natively using the React Native runtime engine.',
-        'Optimized heavy UI rendering passes and layout structures to maintain constant 60 FPS transitions.',
-        'Managed multi-tier REST API data ingestion flows and local resilient database synchronization patterns for offline-first operation.',
+        'Architected and engineered a scalable User Wallet Microservice using Go and the Gin framework to securely manage balances, transaction processing, deposits, withdrawals, and ledger/wallet histories following RESTful API principles',
+        'Configured agile, automated integration loops utilizing Bitbucket Pipelines to streamline system building, orchestration, and automated image publishing to AWS ECR',
+        'Maintained backend resource stability handling object files over AWS S3, linking resilient server blocks using AWS EC2, Application Load Balancers, and dedicated static Elastic IPs',
+        'Redesigned Android and cross-platform native application interfaces utilizing modern Google Material Design patterns',
+        'Built and shipped modular hybrid applications natively using the React Native runtime engine',
+        'Optimized heavy UI rendering passes and layout structures to maintain constant 60 FPS transitions',
       ],
     },
     {
@@ -266,6 +263,26 @@ export const projects = {
   maxVisibleTags: 5,
 
   items: [
+    {
+      id: 'user-wallet-microservice',
+      title: 'User Wallet Microservice',
+      type: 'Microservice',
+      overview:
+        'A highly scalable, high-performance wallet microservice for secure balance management, financial transaction processing, and real-time wallet history within a distributed microservices architecture.',
+      tech: ['Go', 'Gin', 'MongoDB', 'Docker', 'AWS EC2', 'JWT', 'REST APIs'],
+      responsibilities: [
+        'Designed and implemented RESTful APIs for wallet creation, balance retrieval, credit/debit operations, and transaction history',
+        'Secured APIs using JWT authentication with role-based access control for authorized access',
+        'Utilized MongoDB transactions to ensure atomic wallet updates and maintain data consistency across financial operations',
+        'Implemented concurrent-safe balance updates to prevent race conditions and ensure transaction integrity',
+        'Built immutable transaction history for auditing, reconciliation, and inter-service integrations',
+        'Optimized MongoDB collections with appropriate indexing to improve query performance for wallet balances and transaction history',
+        'Containerized the service using Docker and deployed it on AWS EC2',
+        'Implemented structured logging, centralized error handling, configuration management, and request validation for improved maintainability and observability',
+      ],
+      links: { live: null, source: null },
+    },
+
     {
       id: 'jarvis-invest',
       title: 'Jarvis Invest',
