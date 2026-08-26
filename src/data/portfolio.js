@@ -21,7 +21,7 @@ export const personalInfo = {
   email: 'sisrar403@gmail.com',
   yearsExperience: '5.4',
   resumeUrl:
-    'https://drive.google.com/file/d/112yW0lEzfF-W1FCK-V5D6CRYANKV8Fvy/view?usp=sharing',
+    'https://drive.google.com/drive/folders/10oVvmnLU67ztjjpYTeH3qZNgzRLYng_e?usp=sharing',
   social: {
     github: 'https://github.com/sisrar40',
     linkedin: 'https://linkedin.com/in/shaikh-israr-8553251b7',
