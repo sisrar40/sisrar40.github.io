@@ -5,6 +5,7 @@ import {
   SiCss,
   SiDjango,
   SiDocker,
+  SiExpo,
   SiExpress,
   SiFastapi,
   SiFlask,
@@ -13,6 +14,7 @@ import {
   SiHtml5,
   SiJira,
   SiJavascript,
+  SiKotlin,
   SiMongodb,
   SiMysql,
   SiNextdotjs,
@@ -81,6 +83,9 @@ const SKILL_MAP = {
   Android: { Icon: SiAndroid, color: '#3DDC84' },
   iOS: { Icon: SiSwift, color: '#F05138' },
   Razorpay: { Icon: Code2, color: '#0C2451' },
+  Expo: { Icon: SiExpo, color: '#ffffff' },
+  Kotlin: { Icon: SiKotlin, color: '#7F52FF' },
+  'Video Player': { Icon: Code2, color: '#ef4444' },
   GitHub: { Icon: SiGit, color: '#ffffff' },
   Various: { Icon: Code2, color: '#94a3b8' },
 };
@@ -122,6 +127,8 @@ export function getSkillIcon(skillName) {
   if (lower.includes('express')) return SiExpress;
   if (lower.includes('django')) return SiDjango;
   if (lower.includes('capacitor')) return SiCapacitor;
+  if (lower.includes('expo')) return SiExpo;
+  if (lower.includes('kotlin')) return SiKotlin;
 
   return DEFAULT_ICON;
 }

@@ -88,7 +88,7 @@ export const heroCode = {
       num: '04',
       parts: [
         { text: '  skills:', className: 'text-slate-200' },
-        { text: " [ 'NodeJS', 'Go Lang', 'Python', 'React.js', 'React Native', 'Next.js', 'Vue.js', 'Capacitor.js', 'Express.js', 'Gin', 'FastAPI', 'Flask', 'Docker', 'Git', 'CI/CD', 'PostgreSQL', 'MongoDB', 'MySQL', 'Redis'],", className: 'text-red-300' },
+        { text: " [ 'NodeJS', 'Go Lang', 'Python', 'React.js', 'React Native', 'Expo', 'Next.js', 'Vue.js', 'Capacitor.js', 'Express.js', 'Gin', 'FastAPI', 'Flask', 'Docker', 'Git', 'CI/CD', 'PostgreSQL', 'MongoDB', 'MySQL', 'Redis'],", className: 'text-red-300' },
       ],
     },
     {
@@ -124,7 +124,7 @@ export const heroCode = {
 
 export const stats = [
   { value: '5.4+', label: 'Years Experience' },
-  { value: '15+', label: 'Projects Delivered' },
+  { value: '20+', label: 'Projects Delivered' },
   { value: '12+', label: 'Tech Mastered' },
 ];
 
@@ -167,7 +167,7 @@ export const skills = {
     {
       id: 'mobile',
       label: 'Mobile',
-      items: ['Android Development', 'React Native', 'Capacitor.js', 'SwiftUI'],
+      items: ['Android Development', 'React Native', 'Expo', 'Capacitor.js', 'SwiftUI'],
     },
     {
       id: 'backend',
@@ -417,6 +417,60 @@ export const projects = {
     },
 
     {
+      id: 'lead-management-crm',
+      title: 'Lead Management CRM',
+      type: 'Expo / React Native',
+      overview:
+        'A cross-platform mobile CRM application designed for sales pipelines to capture leads, assign sales reps, track conversion stages, log follow-ups, and automate reminders.',
+      tech: ['Expo', 'React Native', 'Node.js', 'Redux', 'Push Notifications', 'REST APIs'],
+      responsibilities: [
+        'Architected and developed cross-platform mobile CRM application using React Native and Expo for Android and iOS',
+        'Built dynamic lead capture and qualification flows with automated sales representative assignment and round-robin routing',
+        'Implemented pipeline stage tracking (New, Contacted, Qualified, Proposal, Won/Lost) with interactive status updates',
+        'Developed automated follow-up scheduling, push notifications, and calendar reminders to prevent lead drop-offs',
+        'Engineered communication history logs, audio/text note taking, and customer call logging workflows',
+        'Integrated offline storage and asynchronous background sync for field sales reps',
+      ],
+      links: { live: null, source: null },
+    },
+
+    {
+      id: 'rm-relationship-manager',
+      title: 'RM – Relationship Manager',
+      type: 'Expo / React Native',
+      overview:
+        'A comprehensive mobile relationship management platform providing 360° customer profiles, meeting scheduling, task management, and an interactive activity timeline.',
+      tech: ['Expo', 'React Native', 'JavaScript', 'REST APIs', 'Charts', 'Push Notifications'],
+      responsibilities: [
+        'Developed the mobile client using Expo and React Native with fluid transitions and responsive layouts',
+        'Built comprehensive 360-degree customer profile views displaying account portfolios, transaction histories, and risk metrics',
+        'Designed and implemented meeting and appointment scheduling workflows with calendar sync and alert notifications',
+        'Developed task assignment, deadline tracking, and priority delegation modules for relationship managers',
+        'Constructed an interactive chronological activity timeline tracking calls, meetings, notes, and touchpoints',
+        'Integrated secure biometric authentication (Face ID / Fingerprint) and encrypted local data caching',
+      ],
+      links: { live: null, source: null },
+    },
+
+    {
+      id: 'gigbag-app',
+      title: 'GigBag – Learning App',
+      type: 'Expo / React Native',
+      overview:
+        'A modern mobile education and e-learning application delivering interactive video courses, practice quizzes, skill assessments, and structured learning tracks.',
+      tech: ['Expo', 'React Native', 'JavaScript', 'Video Player', 'Push Notifications'],
+      responsibilities: [
+        'Engineered the cross-platform mobile learning application using Expo and React Native',
+        'Built an interactive media player for video lectures with playback speed controls, chapter navigation, and bookmarking',
+        'Implemented interactive quizzes, practice assessments, and instant scorecard generation with achievement badges',
+        'Developed personalized student dashboards with progress tracking, course completion streaks, and downloadable certificates',
+        'Integrated offline lesson downloads and local caching for uninterrupted learning on the go',
+        'Connected with the centralized Vue.js admin backend for curriculum publishing, payment tracking, and learner analytics',
+      ],
+      links: { live: null, source: null },
+    },
+
+    {
       id: 'gigbag-admin',
       title: 'Gigbag (Admin)',
       type: 'Vue.js',
@@ -427,6 +481,24 @@ export const projects = {
         'Implemented payment history and transaction monitoring systems',
         'Built data visualization dashboards using Chart.js',
         'Developed JSON-to-Excel export workflows for reporting operations',
+      ],
+      links: { live: null, source: null },
+    },
+
+    {
+      id: 'orderking',
+      title: 'OrderKing — E-commerce Mobile App',
+      type: 'Expo / React Native',
+      overview:
+        'OrderKing is an e-commerce mobile application originally developed for Android (Kotlin) and iOS (SwiftUI). I later migrated and rebuilt the application using React Native with Expo, creating a cross-platform codebase for both Android and iOS while maintaining the existing user experience and core functionality.',
+      tech: ['Expo', 'React Native', 'Kotlin', 'SwiftUI', 'Android', 'iOS'],
+      responsibilities: [
+        'Rebuilt the Android and iOS applications using React Native and Expo',
+        'Implemented reusable, cross-platform UI components and screens',
+        'Integrated product browsing, categories, search, cart, checkout, and order management',
+        'Recreated existing native app functionality in a unified React Native codebase',
+        'Improved development efficiency by sharing business logic and UI across platforms',
+        'Used modern React Native architecture and Expo tooling for easier development and deployment',
       ],
       links: { live: null, source: null },
     },
